@@ -21,6 +21,11 @@ module.exports = {
         to: 'XbsjEarth',
         toType: 'dir'
       },
+      {
+        from: 'Static/vue.min.js',
+        to: 'vue.min.js',
+        toType: 'file'
+      },
     ]),
     new webpack.HotModuleReplacementPlugin(),
   ],
