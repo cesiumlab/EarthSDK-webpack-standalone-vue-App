@@ -1,8 +1,9 @@
-# 基于EarthSDK创建的极简App
+# 基于EarthSDK、webpack和vue创建的极简App
 
 ## 简介
 
-基于webpack，创建一个简单的基于EarthSDK的App，可以进行调试和打包。
+基于EarthSDK、webpack和vue创建的极简App，可以调试和打包。
+其中Vue以独立的js文件从外部引入。
 
 ## 使用方法
 
