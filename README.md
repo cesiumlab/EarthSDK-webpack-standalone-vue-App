@@ -2,14 +2,14 @@
 
 ## 简介
 
-基于EarthSDK、webpack和vue创建的极简App，可以调试和打包。
-其中Vue以独立的js文件从外部引入。
+基于EarthSDK、webpack和vue创建的极简App，可以调试和打包。  
+其中Vue以独立的js文件从外部引入，而不是以.vue文件引入。  
 
 ![预览](tools/images/preview.jpg)
 
-注意：小项目可以使用这种方式，比较省事，大型项目最好用Earth-webapck-vue-App或者Earth-vue-cli-App这两个项目来构建。
+注意：小项目可以使用这种方式，比较省事，大型项目最好用Earth-webapck-vue-App或者Earth-vue-cli-App这两个项目来构建。  
 
-这个项目的缺点是，vue组件的创建，不能直接写xxx.vue文件，需要用js方式书写，类似下面这种形式：
+这个项目的缺点是，vue组件的创建，不能直接写xxx.vue文件，需要用js方式书写，类似下面这种形式：  
 
 ```
 // 1 创建Earth的vue组件
